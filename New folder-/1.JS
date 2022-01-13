@@ -56,4 +56,89 @@ function aliasGen(first,last){
   //
   //
   //
-  
+
+//   Your start-up's BA has told marketing that your website has a large audience in Scandinavia and surrounding countries. Marketing thinks it would be great to welcome visitors to the site in their own language. Luckily you already use an API that detects the user's location, so this is an easy win.
+
+// The Task
+// Think of a way to store the languages as a database (eg an object). The languages are listed below so you can copy and paste!
+// Write a 'welcome' function that takes a parameter 'language' (always a string), and returns a greeting - if you have it in your database. It should default to English if the language is not in the database, or in the event of an invalid input.
+// The Database
+// english: 'Welcome',
+// czech: 'Vitejte',
+// danish: 'Velkomst',
+// dutch: 'Welkom',
+// estonian: 'Tere tulemast',
+// finnish: 'Tervetuloa',
+// flemish: 'Welgekomen',
+// french: 'Bienvenue',
+// german: 'Willkommen',
+// irish: 'Failte',
+// italian: 'Benvenuto',
+// latvian: 'Gaidits',
+// lithuanian: 'Laukiamas',
+// polish: 'Witamy',
+// spanish: 'Bienvenido',
+// swedish: 'Valkommen',
+// welsh: 'Croeso'
+
+answer
+function greet(language) {
+    var greet = {
+      english: 'Welcome',
+      czech: 'Vitejte',
+      danish: 'Velkomst',
+      dutch: 'Welkom',
+      estonian: 'Tere tulemast',
+      finnish: 'Tervetuloa',
+      flemish: 'Welgekomen',
+      french: 'Bienvenue',
+      german: 'Willkommen',
+      irish: 'Failte',
+      italian: 'Benvenuto',
+      latvian: 'Gaidits',
+      lithuanian: 'Laukiamas',
+      polish: 'Witamy',
+      spanish: 'Bienvenido',
+      swedish: 'Valkommen',
+      welsh: 'Croeso'  
+    };
+    return greet[language] || 'Welcome';
+  }
+
+  //
+  //
+  //
+
+  3
+// 3  In javascript, Object is one of basic data types. Define an Object can use var obj=new Object() or var obj={}
+
+// You can define the object attributes during initialization, like this:
+
+// var animal={name:"dog"}
+// you can also set/get some properties after the object definition, like this:
+
+// var animal={}
+// animal.name="dog"  (or animal["name"]="dog")
+// Task
+// Give you a function animal, accept 1 parameter:obj like this:
+
+// {name:"dog",legs:4,color:"white"}
+// and return a string like this:
+
+// "This white dog has 4 legs."
+// When you have finished the work, click "Run Tests" to see if your code is working properly.
+
+// In the end, click "Submit" to submit your code pass this kata.
+
+// Series
+// ( ↑↑↑ Click the link above can get my newest kata list, Please add it to your favorites)
+ answer
+ function animal(obj){
+    let info = obj;
+   return `This ${info.color} ${info.name} has ${info.legs} legs.`;
+ }
+
+ //
+ //
+ //
+ 
