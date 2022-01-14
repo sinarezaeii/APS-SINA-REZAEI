@@ -1,0 +1,633 @@
+// js Quiz review
+// let diceOne = Math.random() * 6 + 1;
+    // let diceOne = Math.round(Math.random()*6 +1);// 5.9+1=6.9 => 7 with Math.round
+
+    // js quiz dice
+        // let diceOne = Math.floor(Math.random()*6 +1);
+        // let diceTwo = Math.floor(Math.random()*6 +1);
+        // let result = `The dice 1 is a ${diceOne} and The dice 2 is a ${diceTwo} .and The sum of dice 1 and dice2 are ${diceOne + diceTwo}`;
+
+        // console.log(result);
+
+    // js quiz sina - coins 
+    // let shir = Math.floor(Math.random() * 2 + 1);
+    // let khat = Math.floor(Math.random() * 2 + 1);
+    // let result = `shir ${shir} and khat ${khat} . and sum ${shir + khat}`;
+    // console.log(result)
+
+    // js quiz sina -  toop 3 
+    // toope ma 3 lies . kodoom vajh neshoon mide . tedad vajh = 2 . tedad vajh  = jam voojooh
+    // let ballOne = Math.floor(Math.random()*2+ 1);
+    // let ballTwo = Math.floor(Math.random()*2 + 1);
+    // let ballThree = Math.floor(Math.random()*2 +1);
+    // let result = `The ball 1 is a ${ballOne} , The ball 2 is a ${ballTwo} and The ball 3 is a ${ballThree} .The sum of ball 1 ,ball2 and ball 3 are ${ballOne + ballTwo + ballThree}`;
+    // console.log(result);
+    // js == vs === and != / !==
+    
+    // console.log(5 == 5) true
+    // console.log(5 == 4); false
+    // console.log(5 === 5); true
+    
+// console.log(5 === '5') false
+    // console.log(4 != 3); true
+    // console.log(4 != '3'); true
+    // console.log(4 !== '4' ); true
+    // console.log(4 >= 3); //true 
+    // console.log(4 >= 4); //true
+    // console.log(3 <= 2); //false
+    // console.log(3 <= 3); //true
+    // console.log(3>= 2);
+    // console.log(9 == '9');
+    // console.log(-5 >= -6);
+    // js >= Greater than or equal to - <= less than or equal to - > Greater than - < less than
+    // console.log(typeof 2 , 5)
+
+    //js parseInt
+    
+    let num = '10' ;
+    // console.log(num + 10);
+    // newNum = num + 10;
+    // console.log(typeof newNum);
+    // newNum = parseInt(num)+ 10;
+    // console.log(newNum);
+    // console.log(typeof newNum);
+
+
+// console.log(parseInt(num) + 10)
+// console.log(parseInt('lsfjsld222'))
+// console.log(parseInt('2tiralit22'))
+
+// js parseInt Sina example
+// let num1 = "15fadsd4fd"
+// let num2 = "23fal"
+// console.log(parseInt(num1+ num2)) = 15 . just get num1
+// console.log(parseInt(num1) + parseInt(num2)) = 38
+
+// js parseInt Sina example 
+
+
+// let numOwn = "12346sy";
+// let numtow ="34567ij";
+// console.log(parseInt(numOwn) - parseInt(numtow));
+
+// js parseInt sina example
+
+// let numOne = '20sina'
+// let numTwo = '1380rezaei'
+// console.log(parseInt(numOne)*parseInt(numTwo));
+
+
+// js conditionals (if)
+
+//  let age = 20;
+
+//  if (age === 20){
+//      console.log('javoon hasti')
+//  }
+
+// js sina conditionals (if)
+
+// let weather = 'barfi';
+// if (weather === 'aftabi') {
+//     console.log('hava aftabi ast');
+// }
+
+
+
+
+// js sina conditionals (if)
+
+// let dast = 'rast';
+// if (dast === 'rast'){
+//     console.log( 'sina dast rast ast');
+// }
+
+// js quiz even conitionals(if)
+
+// let number = 21;
+// if(number % 2 === 0){
+//     console.log('The number is even');
+// }
+
+// js quiz traffice signal (if else);
+
+// let trafficSignal = 'red' ;
+
+// if(trafficSignal==='red'){
+//     console.log('stop');
+// }else if (trafficSignal === 'yellow'){
+//     console.log('slow')
+// }else if (trafficSignal ==='green'){
+//     console.log('go')
+// }else{
+//     console.log('koja miri baradar');
+// }
+
+
+// js quiz weather (if)
+// let weather = 'abri'
+// if (weather === 'abri') {
+//     console.log('hava abri ast')
+// } else if (weather === 'barooni') {
+//     console.log('hava barooni ast')
+// } else if (weather === 'barfi') {
+//     console.log('dareh barf miad')
+// } else if (weather === 'garm') {
+//     console.log('hava garm ast')
+// } else {
+//     console.log('aslan hava vojoud nadareh')
+// }
+
+//js nesting (password)
+
+// let password = 'sina rezaei' ;
+
+// if( password.length >= 6 ){
+//     if(password.indexOf(' ') === -1){
+//         console.log('your password is strong')
+//     }else{
+//         console.log('your password contains empty string ')
+//     }
+// }else{
+//     console.log('your password is weak')
+// }
+
+//js nesting sina (password)⭐
+// password 8 charcaters -space- sina 
+
+// let password = 'amirsinaalii sina';
+// let esm = 'sina'
+
+// if (password.length >= 8){
+//   if(password.indexOf(' ') === -1){
+//       console.log('khodaro shokr password shoma shamel space nist')
+//   }else{
+//        console.log('Password shoma shamel space ast.')
+//   }
+// }
+
+
+// js catchMe bani quiz
+
+// const point = 120  // THIS IS ONLY LINE YOU SHOULD CHANGE //DO NOT TOUCH ANYTHING BELOW (please)
+
+
+// if (point <= 100) {
+
+
+//   console.log("are you sure??");
+//   if (point >= 50) {
+//     console.log("haha, you couldn't catch me");
+//   }
+// } 
+
+
+// else if (point < 103) {
+  
+//   if (point % 2 === 0) {
+//     console.log("BUSTED!");
+//   }else{
+//     console.log('you are so close')
+
+//   }
+// } else {
+//   console.log("yet to find me, haha😈!");
+// }
+
+
+// js quiz catchMe 
+
+// if (10 > 20 && 20 > 10){
+//     console.log(10);
+// } else {
+//     console.log(20);
+// }
+// if (10 < 20 && 50 % 5 == 10){
+//     console.log(30);
+// }
+// if (10 == 20 || 50 / 0 == 0){
+//     console.log(40);
+// }
+
+// let sum = 23;
+    // let sum = 25;
+    // let sum = 20;
+
+// if (sum % 10 == 0){
+//     console.log("a");
+// } else if (sum % 2 == 1){
+//     if (sum % 5 == 0 && sum % 2 == 0){
+//         console.log("b");
+//     } else if (sum % 5 == 0){
+//         console.log("c")
+//     } else {
+//         console.log("d")
+//     }
+// } else {
+//     console.log("e")
+// }
+
+// js switch statement (bani)
+
+// const date = new Date();
+// console.log(date);
+
+
+
+// let day = date.getDay()
+// console.log(day);
+
+
+
+
+// if(day === 0){
+//     console.log('sunday')
+// }else if(day === 1){
+//     console.log('monday')
+// }else if( day === 2){
+//     console.log('tuesday')
+// }else if( day === 3 ){
+    
+//     console.log('wednesday')
+// }else{
+
+// }
+
+
+// day = 0 ;
+
+// switch(day){
+//     case 0 : 
+//         console.log('sunday')
+//     break;
+//     case 1:
+//         console.log('monday')
+//     break;
+//     case 2 : 
+//         console.log('tuesday')
+//     break;
+//     case 3:
+//         console.log('wednesday')
+//     break;
+//     case 4 : 
+//         console.log('thursday')
+//     break;
+//     case 5:
+//         console.log('friday')
+//     break;
+//     case 6:
+//         console.log('saturday')
+//     break;
+//     default:
+//         console.log('you have chosen the wrong day')
+    
+// }
+
+
+
+
+// js switch statement sina example
+
+// let hava = 'garm';
+
+// switch(hava){
+//     case 'barfi':
+//         console.log('hava barfi ast')
+//         break;
+//     case 'aftabi':
+//         console.log('hava aftabi ast')
+//         break;
+//     case 'abri':
+//         console.log('hava abri ast')
+//         break;
+//     case 'sard':
+//         console.log('hava sard ast');
+//         break;
+//     case 'garm':
+//         console.log('hava garm ast');
+//         break;
+//     default:
+//         console.log('maloom nist hava chetorie :| ')
+    
+// }
+
+// js array 
+
+let firstArray = ['Spider-Man',9,true,'Bat-Man',18,false,'DreadDevil',21,5>3];
+// console.log(firstArray); return array contain with bracket
+
+// let str = 'sina';
+// console.log(str[3]);
+// str[3]='m';
+// console.log(str);//immutable 
+
+// firstArray[0] = 'Peter Parker';
+// console.log(firstArray);
+
+// let secondArray = ['Arad','amirali','Mmd','Anahid','Benyamin','Pourya'];//String Arrays
+// console.log(secondArray);
+// console.log(secondArray[2]);
+// secondArray[90] ='Sirvan';
+// console.log(secondArray);
+
+// let thirdArray = [9,18,21,24,27,30,33,36,42];//Numbers Array
+// console.log(thirdArray);
+
+// let fourthArray = [true , false,false,true];
+// console.log(fourthArray);
+
+// let fifthArray = [ 'Spider-Man' ,[ 'BatMan' , [  'SquidGame' , ['DreadDevil','Venom',9 ]  ]  ]  ];
+// console.log(fifthArray);
+// console.log(fifthArray[1])//[ 'BatMan', [ 'SquidGame', [ 'DreadDevil', 'Venom', 9 ] ] ]
+// console.log(fifthArray[1][0])//BatMan
+// console.log(fifthArray[1][1]);//[ 'SquidGame',['DreadDevil','Venom',9] ] ]
+// console.log(fifthArray[1][1][0]);//SquidGame
+// console.log(fifthArray[1][1][1]);//['DreadDevil','Venom',9 ]
+// console.log(fifthArray[1][1][1][0]); //DreadDevil
+// console.log(fifthArray[1][1][1][1]);//Venom
+// console.log(fifthArray[1][1][1][2]);//9
+
+// js gameboard
+
+// const board = [ [ 'O', null, 'X' ], [ null, null, 'O' , 'X' ], [ 'X', 'O', null ] ]
+
+//Select Second X 
+
+//  selector = board[1][3];
+//  console.log(selector);
+
+// js array index quiz
+
+//1- unfortuantely, I misspelled the 2nd name in the board array. I meant to wite 'Luna'
+//2- Ballatrix has fallen off the board and has been replaced by 'Draco'! please update the last element.
+
+
+// let board = [ 'Harry', 'Lua', 'Hermione', 'Ballatrix' ];   //DON'T TOUCH THIS LINE;
+
+
+// board[1]='Luna';
+// board[3]='Draco';
+// console.log(board);
+
+// change the these name to this SquidGame --> MoneyHeist - Venom --> 21
+
+// let fifthArray = [ 'Spider-Man' ,[ 'BatMan' , [  'SquidGame' , ['DreadDevil','Venom',9 ]  ]  ]  ];
+
+// fifthArray[1][1][0]='MoneyHeist';
+// fifthArray[1][1][1][1]=21;
+// console.log(fifthArray);
+// console.log(fifthArray[1][1][1]);
+
+// js array Method V1
+
+// let students = ['mohammadhossein' , 'ali' , 'benyamin' , 'anahid' , 'zahra'];
+// console.log(students);
+// students.push('AmirAli','Fatemeh');
+// console.log(students);
+// students.unshift('Arad');
+// students.unshift('Kian')
+// console.log(students);
+// students.pop();
+// console.log(students);
+// students.shift();
+// console.log(students);
+
+
+// js planets quiz
+
+// let planets = [ 'Moon', 'Earth', 'Jupiter', 'Uranus' ];
+
+/// come on... everyone know that 'Moon' is not a planet, let's remove it
+
+
+///add 'Mercury' at the end of your array
+
+///add 'Mars' at the beginning of your array
+
+// planets.shift();
+// planets.push('Mercury');
+// planets.unshift('Mars');
+// console.log(planets);
+
+// js array methodV2
+
+// let movies = [ 'Harry Potter', '12 angry men', 'A dog"s life', 'dark coffee' ]
+
+// let years = [1999, 1900, 1940, 2010, 1900];
+
+// let nums = [1,2,3];
+
+// let newArr1 = years.concat(movies , nums);
+// let newArr = [years + movies + nums];
+// let newArr2 = years + movies + nums;
+// let newArr3 = years + (movies + nums)
+// console.log(newArr);
+// console.log(newArr1);
+// console.log(newArr2);
+// console.log(newArr3);
+
+// console.log(nums.includes(3));//true
+// console.log(movies.includes('Harry'));//false
+// console.log(movies.includes('Harry Potter'));//true
+
+
+// if(!movies.includes("Harry Potter")){
+//     console.log('bad movie')
+// }else {
+//     console.log('good movie')
+// }
+
+    // js array v2 method sina example if
+    // declare Cartoon Array - if ghashange age ham ghashang nabood print cartoon badie
+    // let kartoon = ['ben10', 'sefidbarfi', 'tom-and-jery', 'plangsoorati', 'bobsfanji'];
+    // if (!kartoon.includes('plangsoorati')) {
+    //     console.log('bad kartoon')
+    // } else {
+    //     console.log('good kartoon')
+    // }
+
+    // js array v2 method sina example if (inclues)
+    // declare football player array - if good player good else bad player 
+
+    // footballPlayer = ['Messi','Ronaldo','Mbape','Ozil','Kaka']
+    // playersOne =['Messi','Ronaldo','Mbape'];
+   
+
+    // if (footballPlayer.includes('Messi' && 'Ronaldo' && 'Mbape')){
+    //     console.log('They are good players')
+    // }else if(footballPlayer.includes('Kaka','Ozil')){
+    //     console.log('They are bad players')
+    // }else{
+    //     console.log('They are very bad players')
+    // }
+
+    //js array method (reverse)*
+    
+    // let movies = [ 'Harry Potter', '12 angry men', 'A dog"s life', 'dark coffee' ]
+
+    // console.log(movies)//not destuctive
+    // console.log(movies.reverse())//destructive
+
+// 
+
+    // console.log(movies.slice(1));
+
+   //js array method (splice)*
+
+//    const months = ['Jan', 'March', 'April', 'June'];
+    // months.splice(1, 0, 'Feb');//[ 'Jan', 'Feb', 'March', 'April', 'June' ]
+    // months.splice(1,1,'Oct');
+
+    // console.log(months);    
+    // months.splice(4, 1, 'May');
+
+    // console.log(months);
+// js array method (sort)
+
+// const array1 = [1, 30, 4, 21, 100000 ,15];
+// const array1 = [1, 34, 4, 21, 100000 ,15,25];
+// array1.sort();
+// console.log(array1);
+
+
+// js array equality
+
+
+// a = [1,2,3,4];
+// b = [1, 2, 3, 4];
+// b = a;
+
+
+
+// if (a === b) {
+//   console.log('it"s true');
+// } else {
+//   console.log("it's false");
+// }
+
+// let arr = [1,2,3,4];
+// console.log(arr.length);
+// arr[4]= 6;
+// console.log(arr)
+// const arr2 = [1,2,3,4,5]
+// // arr = arr2;
+
+// if (arr === arr2){
+//     console.log('True');
+// }else{
+//     console.log('false');
+// }
+
+
+// a = [1,2,3];
+// b = [3,4,5]
+
+// c = a > b ;
+// console.log(c);
+// c = a < b ;
+// console.log(c);
+// c = a==b;
+// console.log(c);
+
+//js function
+
+// function makeHeart(){
+//     console.log('<3');
+// }
+    
+
+
+// makeHeart();
+
+// function greeting(age , firstName , lastName , role , ideas){
+    
+//     console.log(
+//         ` Hello ${firstName} ${lastName} . you are a part of APs and your role is ${role} and your age is ${age} and your ideas are : ${ideas} `
+//     )
+// }
+
+// greeting(20,'sina','rezaei','Web Developer',['Make the world for live better place ','Kill Sina','Kill Mmd'])
+
+
+// js function example sina 
+// firstName -lastName -phone-id telegram
+
+// function greeting(firstName, lastName, phone, idTel) {
+//     console.log(
+//         `Hello ${firstName} ${lastName}. your phone ${phone} and id telegram ${idTel}`
+//     )
+// }
+// greeting('sina', 'rezaei', '09032288000', 'sinarezaei')
+
+
+// js function example sina
+
+// ChannelName -ChannelId-Admin 
+
+
+// function info(channelName , channelId , Admin){
+//     console.log(`Hello wellcome to the ${channelName} .Our channel id is ${channelId} and the admin name is ${Admin}`);
+// }
+
+// info('sinachoob','sinachoob','sinareezaei');
+
+// function sumMultiple(num1 , num2){
+//     const sum = `the sum of ${num1} and ${num2} is ${num1 + num2} and the multiply of them is ${num1 * num2}`
+//     console.log(sum)
+// }
+
+
+// sumMultiple(5,4)
+
+// js sina function
+// function nums(num) {
+//     if (num % 2 === 0) {
+//         console.log('even')
+//     } else {
+//         console.log('odd')
+//     }
+// }
+
+// nums(2)
+
+
+// js sina function
+
+// function divide(num){
+//     if (num % 2 === 0 && num %5 === 0){
+//         console.log('in adad ham bar 2 va ham bar 5 bakhsh pazir ast.');
+//     }else if(num % 2 ===0){
+//         console.log('in adad faghat bar 2 bakhsh pazir ast.');
+//     }else if(num % 5 ===0){
+//         console.log('in adad faghat bar 5 bakhsh pazir ast.')
+//     }else{
+//         console.log('In adad marz dard va na bar 2 na bar 5 bakhsh pazir ast :|');
+//     }
+// }
+
+// divide(11);
+
+// function birthday(age) {
+//     return age * 365;
+// }
+
+// console.log(birthday(20))
+
+// function makePence(money){
+//     console.log("$"+money/100);
+// }
+
+// makePence(199);
+
+// js return
+
+function double(num){
+    // console.log(num**2)
+    
+    // console.log('hii')
+    return num**2
+
+}
+
+let x= double(4);
+console.log(x);
