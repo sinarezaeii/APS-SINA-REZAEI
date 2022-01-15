@@ -1,0 +1,402 @@
+// js if statement  aps 
+// if statement
+/*
+    if Shaden is a mentor print out "Hi Shaden, you are a mentor"
+    if Shaden is a student print out "Hi Shaden, you are student"
+    if Shaden is a teacher print out "Hi Shaden, you are a teacher"
+    if she is none of above, print out "Hi Shaden, you should join IMD"
+*/
+// js conditional example
+// let yourName = "Shaden";
+// let yourRole ="doctor";
+
+
+
+
+// if (yourRole==="mentor"){
+//     console.log(`Hi ${yourName}, you are a mentor`)
+// }else if(yourRole ==="student"){
+//     console.log(`Hi ${yourName},you are a student`)
+// }else if(yourRole ==="teacher"){
+//     console.log(`Hi ${yourName},you are a teacher`)
+// }else{
+//     console.log(`Hi ${yourName}, you should join APS`)
+// }
+
+/* 
+EXPECTED RESULT
+---------------
+Hi, I'm Shaden, you are a mentor.
+*/
+
+// js if statement  aps 
+
+
+
+//js first.js
+
+// // There are errors in this code, can you fix it to pass the tests?
+
+// function sum(a,b,c) {
+//     return(a + b + c) ;
+// }
+
+// function greeting(name, age){
+// return(`Hello there, I am ${name} and I am ${age} years old`);
+// }
+// function total(a, b) {
+//     total = a + b;
+
+//    return(`The total is ${total}`);
+// }
+
+// const util = require('util');
+
+// function test(test_name, actual, expected) {
+//     let status;
+//     if (actual === expected) {
+//         status = "PASSED";
+//     } else {
+//          status = `FAILED: expected: ${util.inspect(expected)} but your function returned: ${util.inspect(actual)}`;
+//     }
+
+//     console.log(`${test_name}: ${status}`);
+// }
+
+// test("fixed sum function - case 1", sum(3, 4, 6), 13);
+// test("fixed greeting function", greeting("Alireza", 27), "Hello there, I am Alireza and I am 27 years old");
+// test("fixed total function", total(23, 5), "The total is 28");
+// test();
+
+
+
+
+
+// js second.js 
+
+// /** @format */ // There are errors in this code, can you fix it to pass the tests?
+
+// function trimWord(text) {
+//   return text.trim();
+// }
+
+// function getWordLength(text) {
+//   return text.length;
+// }
+
+// function multiply(a, b, c) {
+  
+//   return a * b * c;
+// }
+
+// /* 
+// ===================================================
+// ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
+
+// There are some Tests in this file that will help you work out if your code is working.
+
+// To run these tests type `node second` into your terminal
+// ===================================================
+// */
+
+// const util = require("utilkk");
+
+// function test(test_name, actual, expected) {
+//   let status;
+//   if (actual === expected) {
+//     status = "PASSED";
+//   } else {
+//     status = `FAILED: expected: ${util.inspect(
+//       expected
+//     )} but your function returned: ${util.inspect(actual)}`;
+//   }
+
+//   console.log(`${test_name}: ${status}`);
+// }
+
+// test(
+//   "fixed trimWord function",
+//   trimWord("  International Mentors & Developers   "),
+//   "International Mentors & Developers"
+// );
+// test(
+//   "fixed wordLength function",
+//   getWordLength("A wild sentence appeared!"),
+//   25
+// );
+// test("fixed multiply function", multiply(2, 3, 6), 36);
+
+// js third.js
+
+// //add comments
+// // explain what this function does. use Google!
+// function whatDoIDo() {
+//   return Math.random() * 8 + 1;
+//   //produce random number and multiply between 0,1
+//   //example 0.2 * 8 + 1
+// }
+
+// // explain what does this function do, google it
+// function whatICanDo(word1, word2) {
+//   return word1.concat(word2);
+//   //concatenate between word1 and word2
+// }
+
+// function concatenate(firstWord, secondWord, thirdWord) {
+//   // do you remember how concatenation works? take a look at the tests and do it yourself
+//   return firstWord.concat(" " + secondWord + " "+thirdWord);
+// }
+
+// /* 
+// ===================================================
+// ======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
+
+// There are some Tests in this file that will help you work out if your code is working.
+// To run these tests type `node third` into your terminal
+// ==================================
+// */
+
+// const util = require("util");
+
+// function test(test_name, actual, expected) {
+//   let status;
+//   if (actual === expected) {
+//     status = "PASSED";
+//   } else {
+//     status = `FAILED: expected: ${util.inspect(
+//       expected
+//     )} but your function returned: ${util.inspect(actual)}`;
+//   }
+
+//   console.log(`${test_name}: ${status}`);
+// }
+
+// test(
+//   "concatenate function - case 1 works",
+//   concatenate("international", "mentors&", "developers"),
+//   "international mentors& developers"
+// );
+// test(
+//   "concatenate function - case 2 works",
+//   concatenate("I", "like", "pizza"),
+//   "I like pizza"
+// );
+// test(
+//   "concatenate function - case 3 works",
+//   concatenate("I", "am", 13),
+//   "I am 13"
+// );
+
+
+// js fourth.js
+
+
+
+/**
+ * /*
+ *   SALES TAX
+ *   =========
+ *   A business requires a program that calculates how much the price of a product is including sales tax
+ *   Sales tax is 20% of the price of the product.
+ *
+//  * @format
+ */
+
+// function calculateSalesTax(price) {
+//    price= price+(price*20)/100
+//     return price;
+// }
+
+
+/*
+  CURRENCY FORMATTING
+  ===================
+  The business has informed you that prices must have 2 decimal places
+  They must also start with the currency symbol
+  Write a function that adds tax to a number, and then transforms the total into the format £18.00
+  Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
+*/
+
+// function addTaxAndFormatCurrency(format) {
+//   format= format+(format*20)/100
+//  let fixed = `£${format.toFixed(2)}`
+//  return fixed;
+
+//js ************
+// format = calculateSalesTax(15);
+// let numberOne = `£${format.toFixed(2)}`
+
+// formatNumberTwo = calculateSalesTax(17.5);
+// let numberTwo = `£${formatNumberTwo.toFixed(2)}`
+
+// formatNumberThree = calculateSalesTax(34)
+// let numberThree = `£${formatNumberThree.toFixed(2)}`
+// finalNumber = numberOne,numberTwo,numberThree;
+// return finalNumber;
+//}
+
+//js ************
+
+
+/* 
+===================================================
+======= TESTS - DO NOT MODIFY BELOW THIS LINE =====
+There are some Tests in this file that will help you work out if your code is working.
+To run these tests type `node fourth` into your terminal
+===================================================
+*/
+
+// const util = require("util");
+
+// function test(test_name, actual, expected) {
+//   let status;
+//   if (actual === expected) {
+//     status = "PASSED";
+//   } else {
+//     status = `FAILED: expected: ${util.inspect(
+//       expected
+//     )} but your function returned: ${util.inspect(actual)}`;
+//   }
+
+//   console.log(`${test_name}: ${status}`);
+// }
+
+// test("calculateSalesTax function - case 1 works", calculateSalesTax(15), 18);
+// test("calculateSalesTax function - case 2 works", calculateSalesTax(17.5), 21);
+// test("calculateSalesTax function - case 3 works", calculateSalesTax(34), 40.8);
+
+// test(
+//   "addTaxAndFormatCurrency function - case 1 works",
+//   addTaxAndFormatCurrency(15),
+//   "£18.00"
+// );
+// test(
+//   "addTaxAndFormatCurrency function - case 2 works",
+//   addTaxAndFormatCurrency(17.5),
+//   "£21.00"
+// );
+// test(
+//   "addTaxAndFormatCurrency function - case 3 works",
+//   addTaxAndFormatCurrency(34),
+//   "£40.80"
+// );
+// function mood() {
+//     let isHappy = true;
+   
+  
+//     if (isHappy) {
+//       return "I am happy";
+//     }
+//      else {
+//       return "I am not happy";
+//     }
+//   }
+  
+//   function greaterThan10(num) {
+//     let isBigEnough;
+  
+//     if (isBigEnough) {
+//       return "num is greater than 10";
+//     } else {
+//       return "num is not big enough";
+//     }
+//   }
+  
+//   function sortArray(letters) {
+//     let sortedLetters = letters;
+  
+//     return sortedLetters;
+//   }
+  
+//   function first5(numbers) {
+//     let sliced;
+  
+//     return sliced;
+//   }
+  
+//   function get3rdIndex(arr) {
+//     let index = 3;
+//     let element;
+  
+//     return element;
+//   }
+  
+//   /* ======= TESTS - DO NOT MODIFY ===== */
+  
+//   const util = require("util");
+  
+//   function test(test_name, actual, expected) {
+//     let status;
+  
+//     let isEqual;
+//     if (Array.isArray(expected)) {
+//       isEqual = arraysEqual(actual, expected);
+//     } else {
+//       isEqual = actual === expected;
+//     }
+  
+//     if (isEqual) {
+//       status = "PASSED";
+//     } else {
+//       status = `FAILED: expected: ${util.inspect(
+//         expected
+//       )} but your function returned: ${util.inspect(actual)}`;
+//     }
+  
+//     console.log(`${test_name}: ${status}`);
+//   }
+  
+//   function arraysEqual(a, b) {
+//     if (a === b) return true;
+//     if (a == null || b == null) return false;
+//     if (a.length != b.length) return false;
+  
+//     for (let i = 0; i < a.length; ++i) {
+//       if (a[i] !== b[i]) return false;
+//     }
+  
+//     return true;
+//   }
+  
+//   test("mood function works for true", mood(true), "I am happy");
+//   test("mood function works for false", mood(false), "I am not happy");
+//   test(
+//     "greaterThanTen function works for 11",
+//     greaterThan10(11),
+//     "num is greater than 10"
+//   );
+//   test(
+//     "greaterThanTen function works for 10",
+//     greaterThan10(10),
+//     "num is not big enough"
+//   );
+//   test(
+//     "greaterThanTen function works for 9",
+//     greaterThan10(9),
+//     "num is not big enough"
+//   );
+//   test("sortArray function works", sortArray(["a", "n", "c", "e", "z", "f"]), [
+//     "a",
+//     "c",
+//     "e",
+//     "f",
+//     "n",
+//     "z",
+//   ]);
+  
+//   let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+//   test("first5 function works", first5(numbers), [1, 2, 3, 4, 5]);
+//   if (!arraysEqual(numbers, [1, 2, 3, 4, 5, 6, 7, 8])) {
+//     console.log("PROBLEM: first5 changed its input array - it shouldn't!");
+//   }
+  
+//   test(
+//     "get3rdIndex function works - case 1",
+//     get3rdIndex(["fruit", "banana", "apple", "strawberry", "raspberry"]),
+//     "strawberry"
+//   );
+//   test(
+//     "get3rdIndex function works - case 2",
+//     get3rdIndex([11, 37, 62, 18, 19, 3, 30]),
+//     18
+//   );
