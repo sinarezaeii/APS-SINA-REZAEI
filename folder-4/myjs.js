@@ -53,3 +53,38 @@
 // }
 
 // console.log(x);
+
+// const number = 59;
+
+// try {
+//   number = 99;
+//  } catch (err){ 
+//   console.log(err);
+  
+// }
+
+// console.log(number);
+
+// // const num = 67;
+
+// try {
+//   num = 111;
+// } catch (err) {
+//   console.log(err);
+  
+// }
+
+// console.log(num);
+
+// var Name = "rezaei";
+// var Number = 7500;
+// var IsExists = true;
+// var Name = "sina";
+// alert(Name+Number);
+
+// console.log(2 === 2);
+// console.log('' == 0)
+// console.log(3 <= 5)
+// console.log(-1<=4)
+// console.log(123 <= 3)
+// console.log(20 % 2  === 9)
