@@ -1,0 +1,14 @@
+getAttribute
+https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute
+
+hasAttribute
+https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute
+
+removeAttribute
+https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
+
+setAttribute
+https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+
+attributes
+https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes

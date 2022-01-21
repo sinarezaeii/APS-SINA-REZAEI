@@ -1,0 +1,14 @@
+appendChild:
+
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+
+createElement:
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+
+
+createTextNode:
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode
+
